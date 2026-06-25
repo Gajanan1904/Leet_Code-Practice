@@ -5,7 +5,7 @@ public:
         vector<int> left(n, -1), right(n, -1);
         stack<int> st;
 
-        // Nearest Greater Left
+    
         for (int i = 0; i < n; i++) {
             while (!st.empty() && nums[st.top()] < nums[i]) {
                 st.pop();
