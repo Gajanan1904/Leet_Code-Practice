@@ -8,7 +8,6 @@ public:
             slow=slow->next;
             fast=fast->next->next;
         }
-
         ListNode *second=slow->next;
         slow->next=NULL;
 
